@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import MainPage from "./pages/Main";
+import SimpleTopBar from "./components/TopBar/SimpleTopBar";
+import TopBarProgress from "react-topbar-progress-indicator";
+import SimpleLoading from "./components/Loading/SimpleLoading";
+
+TopBarProgress.config({
+    barColors: {
+        "0": "#fff",
+        "1.0": "#fff"
+    },
+    shadowBlur: 5
+});
+
+const state = {
+    loading: false
+}
+
+const YourThing = () => {
+    return <div>{<TopBarProgress />}</div>;
+};
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <SimpleLoading></SimpleLoading>
+            {/*<YourThing></YourThing>*/}
+            {/*<SimpleTopBar></SimpleTopBar>*/}
+            {/*<MainPage></MainPage>*/}
+        </div>
+    );
 }
 
 export default App;
