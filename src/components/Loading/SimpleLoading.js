@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 
+
 const SimpleLoading = () => {
     const spin = keyframes`
       0% { transform: rotate(0deg) }
