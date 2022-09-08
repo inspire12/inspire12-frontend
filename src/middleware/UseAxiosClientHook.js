@@ -29,7 +29,7 @@ const useAxios = ({method = 'get', url, config = {}} = {}) => {
 
     useEffect(() => {
         fetchData();
-    }, [fetchData]);
+    }, [fetchData]); //https://kyounghwan01.github.io/blog/React/exhaustive-deps-warning/#_1-useeffect%E1%84%82%E1%85%A2-state%E1%84%85%E1%85%B3%E1%86%AF-%E1%84%82%E1%85%A5%E1%87%82%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%AE%E1%86%B7
 
     return {response, error, loading};
 };

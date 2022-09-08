@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a7fae1-2c89-4543-b7d9-3f9abc449538" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/artwork/Animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/artwork/Canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video/Video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/useAddLibrary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/useScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/AsyncRequestor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/UseAxiosClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/UseAxiosClientHook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/BaseMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/artwork/cssbattle/baby/Baby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/artwork/cssbattle/baby/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Example/Child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Example/Parent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loading/SimpleLoading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loading/SimpleLoading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middleware/Requestor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware/Requestor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/UseAxiosClientHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware/UseAxiosClientHook.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -46,23 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/inspire12/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/221.5787.30/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/inspire12/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/221.5787.30/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/artwork/cssbattle/baby" />
       <recent name="$PROJECT_DIR$/src/components/Footer" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -97,7 +93,7 @@
       <workItem from="1660723483453" duration="418000" />
       <workItem from="1661305131122" duration="4041000" />
       <workItem from="1661408242268" duration="7119000" />
-      <workItem from="1662015281410" duration="5510000" />
+      <workItem from="1662015281410" duration="8821000" />
     </task>
     <servers />
   </component>

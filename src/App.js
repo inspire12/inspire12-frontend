@@ -11,6 +11,8 @@ import VideoPlayer from "./components/Video/Video";
 import useAddLibrary from "./hook/useAddLibrary";
 import {useEffect, useState} from "react";
 import FPSStats from "react-fps-stats";
+import Parent from "./components/Example/Parent";
+import {Baby} from "./artwork/cssbattle/baby/Baby";
 /**
  * @returns 
  */
@@ -24,8 +26,10 @@ function App() {
     // const [scriptLoaded] = useAddLibrary('https://code.jquery.com/jqery-3.6.0.min.js', 'jQuery');
     return (
         <div className="App">
-            <button className={"p-button"}>Default</button>
-            <SimpleLoading></SimpleLoading>
+            <Baby></Baby>
+            {/*<Parent></Parent>*/}
+            {/*<button className={"p-button"}>Default</button>*/}
+            {/*<SimpleLoading></SimpleLoading>*/}
             {/*<VideoPlayer*/}
             {/*    url={[*/}
             {/*        'https://www.youtube.com/watch?v=oUFJJNQGwhk',*/}
